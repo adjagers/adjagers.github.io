@@ -2,6 +2,7 @@ body {
 margin: 25px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 background: #2f3640;
+font-size: 2.5vw;
 }
 
 .container {
@@ -32,6 +33,14 @@ li a {
  color: white;
 }
 
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2.5vw;
+}
+
 
 .about {
     height: 60vh;
@@ -44,7 +53,8 @@ li a {
 }
 
 .contact {
-
+    padding-left: 5%;
+    width: 50%;
 }
 
 .languages {
@@ -62,3 +72,17 @@ footer {
 img {
     height: 60px;
 }
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+    .content-wrapper {
+        padding: 10px;
+    }
+
+    img {
+        height: ;
+    }
+  }
