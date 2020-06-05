@@ -1,13 +1,24 @@
 body {
 
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-background: #2f3640;
+background: linear-gradient(0deg,#212b35,#212b35),linear-gradient(180deg,#212b3c,#3c0046 66.83%)!important;
 
 }
 
 .navbar-brand {
+  width: 5%;
   font-size: 25px;
   color: #f1f1f1!important;
+}
+
+
+.logo {
+  width: 100%;
+}
+.language {
+  font-weight: 800;
+  font-size: 14px;
+  color: rgb(255, 15, 84);
 }
 
 li a {
@@ -15,7 +26,7 @@ li a {
  text-decoration: none;
 }
 
-.bg-light {
+.bg-dark {
     background-color: transparent!important;
 }
 
@@ -35,5 +46,4 @@ li a {
   width: 100%;
   max-width: 1150px;
   margin: 10px auto;
-  border-radius: 5px;
 }
