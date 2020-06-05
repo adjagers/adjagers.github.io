@@ -1,0 +1,39 @@
+body {
+
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background: #2f3640;
+
+}
+
+.navbar-brand {
+  font-size: 25px;
+  color: #f1f1f1!important;
+}
+
+li a {
+ color: #f1f1f1!important;
+ text-decoration: none;
+}
+
+.bg-light {
+    background-color: transparent!important;
+}
+
+
+.container {
+
+}
+
+.project_img {
+    width: 100%;
+}
+
+.project {
+  padding: 20px;
+  background: #353b48;
+  color: #eee;
+  width: 100%;
+  max-width: 1150px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
