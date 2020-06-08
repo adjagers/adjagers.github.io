@@ -36,6 +36,7 @@ li .nav-link  {
 button {
   padding: 10px 20px 10px 20px;
   border: none;
+  background: blue;
 }
 
 .project_img {
@@ -45,6 +46,9 @@ button {
 .project {
   margin: 10px;
 }
+
+
+
 
 span {
     color: #00a8ff;
@@ -84,6 +88,11 @@ p {
     padding: 30px;
 }
 
+button {
+  background: #fff!important;
+  color: #000;
+}
+
 .contact {
     padding-left: 5%;
     width: 50%;
@@ -101,10 +110,6 @@ footer {
     display: inline-flex;
 }
 
-
-    .content-wrapper {
-        padding: 10px;
-    }
 
   @media only screen and (max-width: 600px) {
   h1 {
